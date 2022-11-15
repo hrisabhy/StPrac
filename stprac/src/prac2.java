@@ -15,7 +15,7 @@ public class prac2 {
         catch(InterruptedException e){
             e.printStackTrace();
         }
-        driver.findElement(By.name("password")).sendKeys("hrisabhisthebest");
+        driver.findElement(By.name("password")).sendKeys("");
         driver.findElement(By.id("passwordNext")).click();
         try{
             Thread.sleep(2500);
